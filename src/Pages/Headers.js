@@ -14,7 +14,7 @@ const Headers = () => {
  
     return (
         <div>
-            <div className="navbar text-white" style={{backgroundColor:"#232331"}}>
+            <div className="navbar lg:text-white" style={{backgroundColor:"#232331"}}>
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabindex="0" className="btn btn-ghost lg:hidden">
