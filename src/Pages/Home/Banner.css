@@ -1,0 +1,10 @@
+.height{
+    height: 500px;
+}
+
+@media only screen and (max-width:576px) {
+    .height{
+        height: 285px;
+    }
+    
+}
