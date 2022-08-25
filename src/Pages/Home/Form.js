@@ -12,12 +12,12 @@ const Form = () => {
                     regarding your project. Get in touch with us if you have any
                     queries and we will get back to you as soon as possible.</p>
                 <form>
-                    <input name='name' type="text" placeholder="Your name" className="input mb-2 input-bordered input-info w-full max-w-xs" />
-                    <input name='subject' type="text" placeholder="Subject" className="lg:ml-5 mb-2 input input-bordered input-info w-full max-w-xs" /><br />
-                    <input name='email' type="email" placeholder="Your email" className="mb-2 input input-bordered input-info w-full max-w-xs" />
-                    <input name='phone' type="phone" placeholder="Phone" className="mb-2 lg:ml-5 input input-bordered input-info w-full max-w-xs" /><br />
-                    <input type="text" placeholder="Your message" className="mb-2 input input-bordered input-lg w-full max-w-xs" /> <br />
-                    <input className='mb-5 btn' type="submit" value="Send Message" />
+                    <input name='name' type="text" placeholder="Your name" className="bg-stone-600 placeholder-white text-white border-none rounded-none input mb-2 input-bordered input-info w-full max-w-xs" />
+                    <input name='subject' type="text" placeholder="Subject" className="bg-stone-600 placeholder-white text-white border-none rounded-none lg:ml-5 mb-2 input input-bordered input-info w-full max-w-xs" /><br />
+                    <input name='email' type="email" placeholder="Your email" className="bg-stone-600 placeholder-white text-white border-none rounded-none mb-2 input input-bordered input-info w-full max-w-xs" />
+                    <input name='phone' type="phone" placeholder="Phone" className="bg-stone-600 placeholder-white text-white border-none rounded-none mb-2 lg:ml-5 input input-bordered input-info w-full max-w-xs" /><br />
+                    <input type="text" placeholder="Your message" className="bg-stone-600 placeholder-white text-white border-none rounded-none mb-2 input input-bordered input-lg w-full max-w-xs" /> <br />
+                    <input className='mb-5 btn rounded-none' style={{backgroundColor:'#CA1F26'}} type="submit" value="Send Message" />
                 </form>
                </div>
             </div>
