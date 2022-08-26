@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 const Headers = () => {
     const nav = <>
         <li><Link to='/home'>Home</Link></li>
+        <li><Link to='/shop'>Shop</Link></li>
         <li><Link to='/services'>Services</Link></li>
-        <li><Link to='/services'>Shop</Link></li>
         <li><Link to='/services'>Items</Link></li>
         <li><Link to='/services'>Add Item</Link></li>
         <li><Link to='about'>About</Link></li>
@@ -24,8 +24,10 @@ const Headers = () => {
                             {nav}
                         </ul>
                     </div>
-                    <Link to='/home' className="btn btn-ghost normal-case text-xl"><h1
-                        className='font-bold text-2xl'>WareHouse</h1></Link>
+                    <Link to='/home' className="btn btn-ghost normal-case text-xl">
+                        {/* <h1 className='font-bold text-2xl'>WareHouse</h1> */}
+                        <img className='w-32' src="https://koder.top/demo/authfy/demo/images/brand-logo-white.png" alt="" />
+                        </Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal p-0">

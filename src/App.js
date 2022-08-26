@@ -3,6 +3,9 @@ import './App.css';
 import Headers from './Pages/Headers';
 import { Route, Routes } from 'react-router-dom';
 import Home from './Pages/Home/Home';
+import Login from './Pages/LogSign/Login';
+import SignUp from './Pages/LogSign/SignUp';
+import Shop from './Pages/Home/Shop/Shop';
 
 function App() {
   return (
@@ -11,6 +14,9 @@ function App() {
      <Routes>
       <Route path='/' element={<Home></Home>}> </Route>
       <Route path='/home' element={<Home></Home>}> </Route>
+      <Route path='/shop' element={<Shop></Shop>}> </Route>
+      <Route path='/login' element={<Login></Login>}> </Route>
+      <Route path='/siginUp' element={<SignUp></SignUp>}> </Route>
      </Routes>
     </div>
   );
