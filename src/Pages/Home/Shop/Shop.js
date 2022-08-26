@@ -11,8 +11,8 @@ const Shop = () => {
     }, [])
     return (
         <div>
-            <div className='px-12'>
-                <h1 className='font-bold text-2xl'>PRODUCT CATEGORIES</h1>
+            <div className='px-12 mt-12'>
+                <h1 className='font-bold text-2xl mb-12'>PRODUCT CATEGORIES</h1>
 
                 <div className='grid lg:grid-cols-3'>
                     {

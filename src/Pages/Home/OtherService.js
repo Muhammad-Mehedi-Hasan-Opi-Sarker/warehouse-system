@@ -6,7 +6,7 @@ const OtherService = () => {
             {/* card 1 */}
             <div className="card w-96 bg-base-100">
                 <figure className="px-10 pt-10 rounded-none">
-                    <img src="https://transport.thememove.com/wp-content/uploads/2015/07/image_900x600_04.jpg" alt="Shoes" className="rounded-xl" />
+                    <img src="https://transport.thememove.com/wp-content/uploads/2015/07/image_900x600_04.jpg" alt="Shoes" className="" />
                 </figure>
                 <div className="card-body">
                     <h2 className="card-title">CARGO</h2>
@@ -21,7 +21,7 @@ const OtherService = () => {
             {/* card 2 */}
             <div className="card w-96 bg-base-100">
                 <figure className="px-10 pt-10 rounded-none">
-                    <img src="https://transport.thememove.com/wp-content/uploads/2015/07/image_900x600_03.jpg" alt="Shoes" className="rounded-xl" />
+                    <img src="https://transport.thememove.com/wp-content/uploads/2015/07/image_900x600_03.jpg" alt="Shoes" className="" />
                 </figure>
                 <div className="card-body">
                     <h2 className="card-title">LOGISTIC SERVICE</h2>
@@ -36,7 +36,7 @@ const OtherService = () => {
             {/* card 3 */}
             <div className="card w-96 bg-base-100">
                 <figure className="px-10 pt-10 rounded-none">
-                    <img src="https://transport.thememove.com/wp-content/uploads/2015/07/image_900x600_06.jpg" alt="Shoes" className="rounded-xl" />
+                    <img src="https://transport.thememove.com/wp-content/uploads/2015/07/image_900x600_06.jpg" alt="Shoes" className="" />
                 </figure>
                 <div className="card-body">
                     <h2 className="card-title">STORAGE</h2>
