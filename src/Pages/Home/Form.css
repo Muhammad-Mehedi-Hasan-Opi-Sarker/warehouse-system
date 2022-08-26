@@ -1,7 +1,7 @@
 .res{
     margin-left: 600px;
 }
-@media only screen and (max-width:600px){
+@media only screen and (max-width:570px){
     .res{
         margin-left: 0%;
     }

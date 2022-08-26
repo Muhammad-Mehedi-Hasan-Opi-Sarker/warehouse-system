@@ -3,7 +3,7 @@ import './Form.css';
 
 const Form = () => {
     return (
-        <div className='p-5 lg:pl-8 lg:py-8 px-4 bg-center bg-[url("https://transport.thememove.com/wp-content/uploads/2015/06/parallax021.jpg")]'>
+        <div className='lg:pl-8 lg:py-8 px-4 bg-center bg-[url("https://transport.thememove.com/wp-content/uploads/2015/06/parallax021.jpg")]'>
             <div className='grid lg:ml-0 ml-8 p-0'>
             <div className='res bg-slate-800'>
                <div className='p-5'>
