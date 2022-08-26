@@ -1,6 +1,7 @@
 import React from 'react';
 import Footer from '../Shared/Footer';
 import Banner from './Banner';
+import Clients from './Clients';
 import ContractHome from './ContractHome';
 import Form from './Form';
 import HomeServices from './HomeServices/HomeServices';
@@ -14,9 +15,10 @@ const Home = () => {
             <Banner></Banner>
             <OtherService></OtherService>
             <Form></Form>
-        <HomeServices></HomeServices>
+            <HomeServices></HomeServices>
             <ContractHome></ContractHome>
             <Testimonials></Testimonials>
+            <Clients></Clients>
             {/* <NewsAndChoose></NewsAndChoose> */}
             <Footer></Footer>
         </div>
