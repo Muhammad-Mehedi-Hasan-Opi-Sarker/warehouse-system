@@ -1,24 +1,27 @@
 import React from 'react';
 import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
-import { Link, Navigate, useNavigate } from "react-router-dom";
+import { Link, Navigate, useLocation, useNavigate } from "react-router-dom";
 import auth from '../../firebase.init';
 import Footer from '../Shared/Footer';
 import Loading from '../Shared/Loading';
+import SocialLog from './SocialLog';
 
 const Login = () => {
-    const navigate= useNavigate()
+    const navigate = useNavigate()
+    const location = useLocation()
+    let from = location.state?.from?.pathname || "/";
     const [
         signInWithEmailAndPassword,
         user,
         loading,
         error,
-      ] = useSignInWithEmailAndPassword(auth);
+    ] = useSignInWithEmailAndPassword(auth);
 
     const handleLogin = e => {
         e.preventDefault()
         const email = e.target.email.value;
         const password = e.target.password.value;
-        signInWithEmailAndPassword( email,password );
+        signInWithEmailAndPassword(email, password);
     }
 
     let errorElement;
@@ -32,7 +35,7 @@ const Login = () => {
     }
 
     if (user) {
-        navigate('/home')
+        navigate(from, { replace: true });
     }
 
     return (
@@ -48,7 +51,7 @@ const Login = () => {
                     <div className="card-body m-5">
                         <img className='w-32' src="https://koder.top/demo/authfy/demo/images/brand-logo-white.png" alt="" />
                         <p>Login using social media to get quick access</p>
-                        <button className='btn w-full bg-cyan-500'>google</button>
+                        <SocialLog></SocialLog>
                         <button className='btn w-full bg-cyan-500'>github</button>
                         <button className='btn w-full bg-cyan-500'>twitter</button>
                     </div>
