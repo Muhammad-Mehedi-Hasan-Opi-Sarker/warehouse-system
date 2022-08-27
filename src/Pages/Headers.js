@@ -1,7 +1,14 @@
+import { signOut } from 'firebase/auth';
 import React from 'react';
+import { useAuthState } from 'react-firebase-hooks/auth';
 import { Link } from 'react-router-dom';
+import auth from '../firebase.init';
 
 const Headers = () => {
+    const [user, loading, error] = useAuthState(auth);
+    const logout = () => {
+        signOut(auth);
+    };
     const nav = <>
         <li><Link to='/home'>Home</Link></li>
         <li><Link to='/shop'>Shop</Link></li>
@@ -11,10 +18,10 @@ const Headers = () => {
         <li><Link to='about'>About</Link></li>
         <li><Link to='/blog' >Blog</Link></li>
     </>
- 
+
     return (
         <div>
-            <div className="navbar lg:text-white" style={{backgroundColor:"#232331"}}>
+            <div className="navbar lg:text-white" style={{ backgroundColor: "#232331" }}>
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabindex="0" className="btn btn-ghost lg:hidden">
@@ -27,7 +34,7 @@ const Headers = () => {
                     <Link to='/home' className="btn btn-ghost normal-case text-xl">
                         {/* <h1 className='font-bold text-2xl'>WareHouse</h1> */}
                         <img className='w-32' src="https://koder.top/demo/authfy/demo/images/brand-logo-white.png" alt="" />
-                        </Link>
+                    </Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal p-0">
@@ -36,7 +43,8 @@ const Headers = () => {
                 </div>
                 <div className="navbar-end">
                     <ul className="menu menu-horizontal p-0">
-                        <li> <Link to='/login'>login</Link></li>
+                        <li> {user ? <button onClick={logout} className='btn'>sign out</button> :
+                            <Link to='/login'>login</Link>} </li>
 
                     </ul>
                 </div>

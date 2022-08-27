@@ -1,11 +1,43 @@
 import React from 'react';
-import { Link } from "react-router-dom";
+import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
+import { Link, Navigate, useNavigate } from "react-router-dom";
+import auth from '../../firebase.init';
 import Footer from '../Shared/Footer';
+import Loading from '../Shared/Loading';
 
 const Login = () => {
+    const navigate= useNavigate()
+    const [
+        signInWithEmailAndPassword,
+        user,
+        loading,
+        error,
+      ] = useSignInWithEmailAndPassword(auth);
+
+    const handleLogin = e => {
+        e.preventDefault()
+        const email = e.target.email.value;
+        const password = e.target.password.value;
+        signInWithEmailAndPassword( email,password );
+    }
+
+    let errorElement;
+    if (error) {
+        errorElement = <div className='text-red-500	'>Error: {error?.message}</div>
+
+    }
+
+    if (loading) {
+        return <Loading></Loading>
+    }
+
+    if (user) {
+        navigate('/home')
+    }
+
     return (
         <div className="bg-[url('https://img.freepik.com/free-vector/drone-background-design_1212-249.jpg?w=740&t=st=1661506518~exp=1661507118~hmac=4415c51324b31a61d40c8a5ca3955600676a8e29377f4cb8781766bbb35b40e3')]"
-        style={{height:'900px'}}>
+            style={{ height: '900px' }}>
             <h1 className='mb-20'>.</h1>
             <div className='grid justify-items-center lg:flex lg:ml-80'>
 
@@ -29,10 +61,11 @@ const Login = () => {
                         <p className='ml-8'>Don’t have an account? <span style={{ color: '#4f77ff' }}><Link to='/siginUp'>Sign Up Free!</Link></span></p>
 
                         <div className="card-body">
-                            <form>
-                                <input type="email" placeholder="Email Address" className="input input-bordered w-full max-w-xs mb-5" />
-                                <input type="password" placeholder="Password" className="input input-bordered w-full max-w-xs mb-5" />
+                            <form onSubmit={handleLogin}>
+                                <input name='email' type="email" placeholder="Email Address" className="input input-bordered w-full max-w-xs mb-5" />
+                                <input name='password' type="password" placeholder="Password" className="input input-bordered w-full max-w-xs mb-5" />
                                 <p className='mb-3' style={{ color: '#4f77ff' }}>Forgot password?</p>
+                                {errorElement}
                                 <input className='btn rounded-none border-none w-full' style={{ backgroundColor: '#4f77ff' }} type="submit" value="Login with eamil" />
                             </form>
                         </div>
