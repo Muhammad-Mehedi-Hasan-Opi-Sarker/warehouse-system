@@ -11,10 +11,14 @@ const Headers = () => {
     };
     const nav = <>
         <li><Link to='/home'>Home</Link></li>
-        <li><Link to='/shop'>Shop</Link></li>
         <li><Link to='/services'>Services</Link></li>
-        <li><Link to='/services'>Items</Link></li>
-        <li><Link to='/services'>Add Item</Link></li>
+        {
+            user && <>
+                <li><Link to='/shop'>Shop</Link></li>
+                <li><Link to='/services'>Items</Link></li>
+                <li><Link to='/services'>Add Item</Link></li>
+            </>
+        }
         <li><Link to='about'>About</Link></li>
         <li><Link to='/blog' >Blog</Link></li>
     </>
