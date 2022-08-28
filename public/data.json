@@ -1,6 +1,5 @@
 [
     {
-
         "name": "DJI Tello Quadcopter Drone with HD Camera",
         "image": "https://www.startech.com.bd/image/cache/catalog/gadget/drone/dji/dji-tello/tello-500x500.jpg",
         "description1": "DJI Tello Quadcopter Drone with HD Camera",
@@ -9,26 +8,26 @@
         "description4": "Whether youâ€™re at a park, in the office, or hanging out at home, you can always take off and experience the world from exciting new perspectives. Tello has two antennas that make video transmission extra stable and a high-capacity battery that offers impressively long flight times.",
         "weight": "Approx. 795 g",
         "diagonalSize": [
-            "255×312×127 mm (with propellers)",
+            "255×312×127 mm (with propellers), ",
             "178×232×127 mm (without propellers)"
         ],
         "maxAscentSpeed": [
-            "M mode: No limit",
-            "S mode: 15 m/s",
-            "N mode: 8 m/s"
+            "M mode: No limit, ",
+            "S mode: 15 m/s, ",
+            "N mode: 8 m/s, "
         ],
         "maxdescentspeed": [
-            "M mode: No limit",
-            "S mode: 10 m/s",
-            "N mode: 5 m/s"
+            "M mode: No limit, ",
+            "S mode: 10 m/s, ",
+            "N mode: 5 m/s, "
         ],
         "maxspeed": [
-            "140 kph; M mode: 39 m/s (27 m/s in Mainland China)",
-            "S mode: 27 m/s",
-            "N mode: 15 m/s"
+            "140 kph; M mode: 39 m/s (27 m/s in Mainland China), ",
+            "S mode: 27 m/s, ",
+            "N mode: 15 m/s, "
         ],
-        "maxangularspeed":"0-100 kph: 2 s (in ideal conditions while flying in M mode)",
-        "ceilingabovesealevel":"6,000 m",
+        "maxangularspeed": "0-100 kph: 2 s (in ideal conditions while flying in M mode)",
+        "ceilingabovesealevel": "6,000 m",
         "price": 1200,
         "quantity": 700
     },
@@ -41,26 +40,26 @@
         "description4": "Whether youâ€™re at a park, in the office, or hanging out at home, you can always take off and experience the world from exciting new perspectives. Tello has two antennas that make video transmission extra stable and a high-capacity battery that offers impressively long flight times.",
         "weight": "Approx. 795 g",
         "diagonalSize": [
-            "255×312×127 mm (with propellers)",
+            "255×312×127 mm (with propellers), ",
             "178×232×127 mm (without propellers)"
         ],
         "maxAscentSpeed": [
-            "M mode: No limit",
-            "S mode: 15 m/s",
+            "M mode: No limit, ",
+            "S mode: 15 m/s, ",
             "N mode: 8 m/s"
         ],
         "maxdescentspeed": [
-            "M mode: No limit",
-            "S mode: 10 m/s",
+            "M mode: No limit, ",
+            "S mode: 10 m/s, ",
             "N mode: 5 m/s"
         ],
         "maxspeed": [
-            "140 kph; M mode: 39 m/s (27 m/s in Mainland China)",
-            "S mode: 27 m/s",
+            "140 kph; M mode: 39 m/s (27 m/s in Mainland China), ",
+            "S mode: 27 m/s, ",
             "N mode: 15 m/s"
         ],
-        "maxangularspeed":"0-100 kph: 2 s (in ideal conditions while flying in M mode)",
-        "ceilingabovesealevel":"6,000 m",
+        "maxangularspeed": "0-100 kph: 2 s (in ideal conditions while flying in M mode)",
+        "ceilingabovesealevel": "6,000 m",
         "price": 900,
         "quantity": 700
     },
@@ -73,26 +72,26 @@
         "description4": "Whether youâ€™re at a park, in the office, or hanging out at home, you can always take off and experience the world from exciting new perspectives. Tello has two antennas that make video transmission extra stable and a high-capacity battery that offers impressively long flight times.",
         "weight": "Approx. 795 g",
         "diagonalSize": [
-            "255×312×127 mm (with propellers)",
+            "255×312×127 mm (with propellers), ",
             "178×232×127 mm (without propellers)"
         ],
         "maxAscentSpeed": [
-            "M mode: No limit",
-            "S mode: 15 m/s",
+            "M mode: No limit, ",
+            "S mode: 15 m/s, ",
             "N mode: 8 m/s"
         ],
         "maxdescentspeed": [
-            "M mode: No limit",
-            "S mode: 10 m/s",
+            "M mode: No limit, ",
+            "S mode: 10 m/s, ",
             "N mode: 5 m/s"
         ],
         "maxspeed": [
-            "140 kph; M mode: 39 m/s (27 m/s in Mainland China)",
-            "S mode: 27 m/s",
+            "140 kph; M mode: 39 m/s (27 m/s in Mainland China), ",
+            "S mode: 27 m/s, ",
             "N mode: 15 m/s"
         ],
-        "maxangularspeed":"0-100 kph: 2 s (in ideal conditions while flying in M mode)",
-        "ceilingabovesealevel":"6,000 m",
+        "maxangularspeed": "0-100 kph: 2 s (in ideal conditions while flying in M mode)",
+        "ceilingabovesealevel": "6,000 m",
         "price": 1200,
         "quantity": 700
     },
@@ -105,26 +104,26 @@
         "description4": "Whether youâ€™re at a park, in the office, or hanging out at home, you can always take off and experience the world from exciting new perspectives. Tello has two antennas that make video transmission extra stable and a high-capacity battery that offers impressively long flight times.",
         "weight": "Approx. 795 g",
         "diagonalSize": [
-            "255×312×127 mm (with propellers)",
+            "255×312×127 mm (with propellers), ",
             "178×232×127 mm (without propellers)"
         ],
         "maxAscentSpeed": [
-            "M mode: No limit",
-            "S mode: 15 m/s",
+            "M mode: No limit, ",
+            "S mode: 15 m/s, ",
             "N mode: 8 m/s"
         ],
         "maxdescentspeed": [
-            "M mode: No limit",
-            "S mode: 10 m/s",
+            "M mode: No limit, ",
+            "S mode: 10 m/s, ",
             "N mode: 5 m/s"
         ],
         "maxspeed": [
-            "140 kph; M mode: 39 m/s (27 m/s in Mainland China)",
-            "S mode: 27 m/s",
+            "140 kph; M mode: 39 m/s (27 m/s in Mainland China), ",
+            "S mode: 27 m/s, ",
             "N mode: 15 m/s"
         ],
-        "maxangularspeed":"0-100 kph: 2 s (in ideal conditions while flying in M mode)",
-        "ceilingabovesealevel":"6,000 m",
+        "maxangularspeed": "0-100 kph: 2 s (in ideal conditions while flying in M mode), ",
+        "ceilingabovesealevel": "6,000 m",
         "price": 1350,
         "quantity": 700
     },
@@ -137,26 +136,26 @@
         "description4": "Whether youâ€™re at a park, in the office, or hanging out at home, you can always take off and experience the world from exciting new perspectives. Tello has two antennas that make video transmission extra stable and a high-capacity battery that offers impressively long flight times.",
         "weight": "Approx. 795 g",
         "diagonalSize": [
-            "255×312×127 mm (with propellers)",
+            "255×312×127 mm (with propellers), ",
             "178×232×127 mm (without propellers)"
         ],
         "maxAscentSpeed": [
-            "M mode: No limit",
-            "S mode: 15 m/s",
+            "M mode: No limit, ",
+            "S mode: 15 m/s, ",
             "N mode: 8 m/s"
         ],
         "maxdescentspeed": [
-            "M mode: No limit",
-            "S mode: 10 m/s",
+            "M mode: No limit, ",
+            "S mode: 10 m/s, ",
             "N mode: 5 m/s"
         ],
         "maxspeed": [
-            "140 kph; M mode: 39 m/s (27 m/s in Mainland China)",
-            "S mode: 27 m/s",
+            "140 kph; M mode: 39 m/s (27 m/s in Mainland China), ",
+            "S mode: 27 m/s, ",
             "N mode: 15 m/s"
         ],
-        "maxangularspeed":"0-100 kph: 2 s (in ideal conditions while flying in M mode)",
-        "ceilingabovesealevel":"6,000 m",
+        "maxangularspeed": "0-100 kph: 2 s (in ideal conditions while flying in M mode)",
+        "ceilingabovesealevel": "6,000 m",
         "price": 1200,
         "quantity": 700
     },
@@ -167,26 +166,26 @@
         "description2": "DJI Tello Quadcopter Drone is one of the most fun drones ever. Tello is an impressive little drone for kids and adults thatâ€™s a blast to fly and helps users learn about drones with coding education. Get yourself a Tello to find out just how awesome flying can be! The comes with some features like VR Headset Compatibility, DJI Flight Tech, Tello App and Controller Compatibility and many more.",
         "weight": "Approx. 795 g",
         "diagonalSize": [
-            "255×312×127 mm (with propellers)",
+            "255×312×127 mm (with propellers), ",
             "178×232×127 mm (without propellers)"
         ],
         "maxAscentSpeed": [
-            "M mode: No limit",
-            "S mode: 15 m/s",
+            "M mode: No limit, ",
+            "S mode: 15 m/s, ",
             "N mode: 8 m/s"
         ],
         "maxdescentspeed": [
-            "M mode: No limit",
-            "S mode: 10 m/s",
+            "M mode: No limit, ",
+            "S mode: 10 m/s, ",
             "N mode: 5 m/s"
         ],
         "maxspeed": [
-            "140 kph; M mode: 39 m/s (27 m/s in Mainland China)",
-            "S mode: 27 m/s",
+            "140 kph; M mode: 39 m/s (27 m/s in Mainland China), ",
+            "S mode: 27 m/s, ",
             "N mode: 15 m/s"
         ],
-        "maxangularspeed":"0-100 kph: 2 s (in ideal conditions while flying in M mode)",
-        "ceilingabovesealevel":"6,000 m",
+        "maxangularspeed": "0-100 kph: 2 s (in ideal conditions while flying in M mode)",
+        "ceilingabovesealevel": "6,000 m",
         "price": 3200,
         "quantity": 700
     },
@@ -197,26 +196,26 @@
         "description2": "DJI Tello Quadcopter Drone is one of the most fun drones ever. Tello is an impressive little drone for kids and adults thatâ€™s a blast to fly and helps users learn about drones with coding education. Get yourself a Tello to find out just how awesome flying can be! The comes with some features like VR Headset Compatibility, DJI Flight Tech, Tello App and Controller Compatibility and many more.",
         "weight": "Approx. 795 g",
         "diagonalSize": [
-            "255×312×127 mm (with propellers)",
+            "255×312×127 mm (with propellers), ",
             "178×232×127 mm (without propellers)"
         ],
         "maxAscentSpeed": [
-            "M mode: No limit",
-            "S mode: 15 m/s",
+            "M mode: No limit, ",
+            "S mode: 15 m/s, ",
             "N mode: 8 m/s"
         ],
         "maxdescentspeed": [
-            "M mode: No limit",
-            "S mode: 10 m/s",
+            "M mode: No limit, ",
+            "S mode: 10 m/s, ",
             "N mode: 5 m/s"
         ],
         "maxspeed": [
-            "140 kph; M mode: 39 m/s (27 m/s in Mainland China)",
-            "S mode: 27 m/s",
+            "140 kph; M mode: 39 m/s (27 m/s in Mainland China), ",
+            "S mode: 27 m/s, ",
             "N mode: 15 m/s"
         ],
-        "maxangularspeed":"0-100 kph: 2 s (in ideal conditions while flying in M mode)",
-        "ceilingabovesealevel":"6,000 m",
+        "maxangularspeed": "0-100 kph: 2 s (in ideal conditions while flying in M mode)",
+        "ceilingabovesealevel": "6,000 m",
         "price": 7200,
         "quantity": 700
     },
@@ -227,26 +226,26 @@
         "description2": "DJI Tello Quadcopter Drone is one of the most fun drones ever. Tello is an impressive little drone for kids and adults thatâ€™s a blast to fly and helps users learn about drones with coding education. Get yourself a Tello to find out just how awesome flying can be! The comes with some features like VR Headset Compatibility, DJI Flight Tech, Tello App and Controller Compatibility and many more.",
         "weight": "Approx. 795 g",
         "diagonalSize": [
-            "255×312×127 mm (with propellers)",
+            "255×312×127 mm (with propellers), ",
             "178×232×127 mm (without propellers)"
         ],
         "maxAscentSpeed": [
-            "M mode: No limit",
-            "S mode: 15 m/s",
+            "M mode: No limit, ",
+            "S mode: 15 m/s, ",
             "N mode: 8 m/s"
         ],
         "maxdescentspeed": [
-            "M mode: No limit",
-            "S mode: 10 m/s",
+            "M mode: No limit, ",
+            "S mode: 10 m/s, ",
             "N mode: 5 m/s"
         ],
         "maxspeed": [
-            "140 kph; M mode: 39 m/s (27 m/s in Mainland China)",
-            "S mode: 27 m/s",
+            "140 kph; M mode: 39 m/s (27 m/s in Mainland China), ",
+            "S mode: 27 m/s, ",
             "N mode: 15 m/s"
         ],
-        "maxangularspeed":"0-100 kph: 2 s (in ideal conditions while flying in M mode)",
-        "ceilingabovesealevel":"6,000 m",
+        "maxangularspeed": "0-100 kph: 2 s (in ideal conditions while flying in M mode)",
+        "ceilingabovesealevel": "6,000 m",
         "price": 4900,
         "quantity": 700
     },
@@ -257,26 +256,26 @@
         "description2": "DJI Tello Quadcopter Drone is one of the most fun drones ever. Tello is an impressive little drone for kids and adults thatâ€™s a blast to fly and helps users learn about drones with coding education. Get yourself a Tello to find out just how awesome flying can be! The comes with some features like VR Headset Compatibility, DJI Flight Tech, Tello App and Controller Compatibility and many more.",
         "weight": "Approx. 795 g",
         "diagonalSize": [
-            "255×312×127 mm (with propellers)",
+            "255×312×127 mm (with propellers), ",
             "178×232×127 mm (without propellers)"
         ],
         "maxAscentSpeed": [
-            "M mode: No limit",
-            "S mode: 15 m/s",
+            "M mode: No limit, ",
+            "S mode: 15 m/s, ",
             "N mode: 8 m/s"
         ],
         "maxdescentspeed": [
-            "M mode: No limit",
-            "S mode: 10 m/s",
+            "M mode: No limit, ",
+            "S mode: 10 m/s, ",
             "N mode: 5 m/s"
         ],
         "maxspeed": [
-            "140 kph; M mode: 39 m/s (27 m/s in Mainland China)",
-            "S mode: 27 m/s",
+            "140 kph; M mode: 39 m/s (27 m/s in Mainland China), ",
+            "S mode: 27 m/s, ",
             "N mode: 15 m/s"
         ],
-        "maxangularspeed":"0-100 kph: 2 s (in ideal conditions while flying in M mode)",
-        "ceilingabovesealevel":"6,000 m",
+        "maxangularspeed": "0-100 kph: 2 s (in ideal conditions while flying in M mode)",
+        "ceilingabovesealevel": "6,000 m",
         "price": 8800,
         "quantity": 700
     },
@@ -287,26 +286,26 @@
         "description2": "DJI Tello Quadcopter Drone is one of the most fun drones ever. Tello is an impressive little drone for kids and adults thatâ€™s a blast to fly and helps users learn about drones with coding education. Get yourself a Tello to find out just how awesome flying can be! The comes with some features like VR Headset Compatibility, DJI Flight Tech, Tello App and Controller Compatibility and many more.",
         "weight": "Approx. 795 g",
         "diagonalSize": [
-            "255×312×127 mm (with propellers)",
+            "255×312×127 mm (with propellers), ",
             "178×232×127 mm (without propellers)"
         ],
         "maxAscentSpeed": [
-            "M mode: No limit",
-            "S mode: 15 m/s",
+            "M mode: No limit, ",
+            "S mode: 15 m/s, ",
             "N mode: 8 m/s"
         ],
         "maxdescentspeed": [
-            "M mode: No limit",
-            "S mode: 10 m/s",
+            "M mode: No limit, ",
+            "S mode: 10 m/s, ",
             "N mode: 5 m/s"
         ],
         "maxspeed": [
-            "140 kph; M mode: 39 m/s (27 m/s in Mainland China)",
-            "S mode: 27 m/s",
+            "140 kph; M mode: 39 m/s (27 m/s in Mainland China), ",
+            "S mode: 27 m/s, ",
             "N mode: 15 m/s"
         ],
-        "maxangularspeed":"0-100 kph: 2 s (in ideal conditions while flying in M mode)",
-        "ceilingabovesealevel":"6,000 m",
+        "maxangularspeed": "0-100 kph: 2 s (in ideal conditions while flying in M mode)",
+        "ceilingabovesealevel": "6,000 m",
         "price": 2290,
         "quantity": 700
     },
@@ -317,26 +316,26 @@
         "description2": "DJI Tello Quadcopter Drone is one of the most fun drones ever. Tello is an impressive little drone for kids and adults thatâ€™s a blast to fly and helps users learn about drones with coding education. Get yourself a Tello to find out just how awesome flying can be! The comes with some features like VR Headset Compatibility, DJI Flight Tech, Tello App and Controller Compatibility and many more.",
         "weight": "Approx. 795 g",
         "diagonalSize": [
-            "255×312×127 mm (with propellers)",
+            "255×312×127 mm (with propellers), ",
             "178×232×127 mm (without propellers)"
         ],
         "maxAscentSpeed": [
-            "M mode: No limit",
-            "S mode: 15 m/s",
+            "M mode: No limit, ",
+            "S mode: 15 m/s, ",
             "N mode: 8 m/s"
         ],
         "maxdescentspeed": [
-            "M mode: No limit",
-            "S mode: 10 m/s",
+            "M mode: No limit, ",
+            "S mode: 10 m/s, ",
             "N mode: 5 m/s"
         ],
         "maxspeed": [
-            "140 kph; M mode: 39 m/s (27 m/s in Mainland China)",
-            "S mode: 27 m/s",
+            "140 kph; M mode: 39 m/s (27 m/s in Mainland China), ",
+            "S mode: 27 m/s, ",
             "N mode: 15 m/s"
         ],
-        "maxangularspeed":"0-100 kph: 2 s (in ideal conditions while flying in M mode)",
-        "ceilingabovesealevel":"6,000 m",
+        "maxangularspeed": "0-100 kph: 2 s (in ideal conditions while flying in M mode)",
+        "ceilingabovesealevel": "6,000 m",
         "price": 6600,
         "quantity": 700
     },
@@ -347,26 +346,26 @@
         "description2": "DJI Tello Quadcopter Drone is one of the most fun drones ever. Tello is an impressive little drone for kids and adults thatâ€™s a blast to fly and helps users learn about drones with coding education. Get yourself a Tello to find out just how awesome flying can be! The comes with some features like VR Headset Compatibility, DJI Flight Tech, Tello App and Controller Compatibility and many more.",
         "weight": "Approx. 795 g",
         "diagonalSize": [
-            "255×312×127 mm (with propellers)",
+            "255×312×127 mm (with propellers), ",
             "178×232×127 mm (without propellers)"
         ],
         "maxAscentSpeed": [
-            "M mode: No limit",
-            "S mode: 15 m/s",
+            "M mode: No limit, ",
+            "S mode: 15 m/s, ",
             "N mode: 8 m/s"
         ],
         "maxdescentspeed": [
-            "M mode: No limit",
-            "S mode: 10 m/s",
+            "M mode: No limit, ",
+            "S mode: 10 m/s, ",
             "N mode: 5 m/s"
         ],
         "maxspeed": [
-            "140 kph; M mode: 39 m/s (27 m/s in Mainland China)",
-            "S mode: 27 m/s",
+            "140 kph; M mode: 39 m/s (27 m/s in Mainland China), ",
+            "S mode: 27 m/s, ",
             "N mode: 15 m/s"
         ],
-        "maxangularspeed":"0-100 kph: 2 s (in ideal conditions while flying in M mode)",
-        "ceilingabovesealevel":"6,000 m",
+        "maxangularspeed": "0-100 kph: 2 s (in ideal conditions while flying in M mode)",
+        "ceilingabovesealevel": "6,000 m",
         "price": 7700,
         "quantity": 700
     }
