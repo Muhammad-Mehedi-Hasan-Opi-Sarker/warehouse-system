@@ -47,10 +47,10 @@ const Inventory = () => {
                         <table class="table w-full">
                             <thead>
                                 <tr>
-                                    <th className='font-bold text-xl'>Specification</th>
+                                    <th className='font-bold text-xl'>Specification 🤷‍♀️</th>
                                 </tr>
                                 <tr>
-                                    <th className='font-bold text-primary'>Aircraft</th>
+                                    <th className='font-bold text-primary'>Aircraft😊</th>
 
                                 </tr>
                             </thead>

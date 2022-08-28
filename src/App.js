@@ -8,6 +8,7 @@ import SignUp from './Pages/LogSign/SignUp';
 import Shop from './Pages/Home/Shop/Shop';
 import RequireAuth from './Pages/RequireAuth';
 import Inventory from './Pages/Inventory/Inventory';
+import AddItem from './Pages/AddItem/AddItem';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
             <Inventory></Inventory>
           </RequireAuth>
         }></Route>
+        <Route path='/additem' element={<AddItem></AddItem>}> </Route>
         <Route path='/login' element={<Login></Login>}> </Route>
         <Route path='/siginUp' element={<SignUp></SignUp>}> </Route>
       </Routes>

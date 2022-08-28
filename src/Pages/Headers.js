@@ -16,7 +16,7 @@ const Headers = () => {
             user && <>
                 <li><Link to='/shop'>Shop</Link></li>
                 <li><Link to='/services'>Items</Link></li>
-                <li><Link to='/services'>Add Item</Link></li>
+                <li><Link to='/additem'>Add Item</Link></li>
             </>
         }
         <li><Link to='about'>About</Link></li>
