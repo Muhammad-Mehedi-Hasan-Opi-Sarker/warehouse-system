@@ -4,6 +4,7 @@ import { useParams } from 'react-router-dom';
 import auth from '../../firebase.init';
 import Footer from '../Shared/Footer';
 import './Inventory.css';
+import { toast } from 'react-toastify';
 
 const Inventory = () => {
     const [user, loading, error] = useAuthState(auth);
@@ -23,7 +24,7 @@ const Inventory = () => {
         const price = product.price;
         const quantity = product.quantity;
         const email = user.email;
-        console.log(id, name, price, quantity, email);
+        // console.log(id, name, price, quantity, email);
         const allBookingData = {
             id: id,
             name: name,
@@ -40,27 +41,29 @@ const Inventory = () => {
         })
             .then((response) => response.json())
             .then((data) => {
-                console.log('Success:', data);
+                toast(`booking confrim ${product.name}`)
             })
     }
 
     return (
         <div className='' style={{ backgroundColor: '#eeeeee' }}>
             <div className=''>
-                <div className="card lg:card-side bg-base-100 rounded-none border-none">
-                    <figure><img src={product.image} alt="Album" /></figure>
-                    <div className="card-body">
-                        <h1 className='text-3xl lg:mt-20'>{product.name}</h1>
-                        <h1>{product.description2}</h1>
-                        <h1>Price: ${product.price}</h1>
-                        <h1>Quantity: {product.quantity}</h1>
-                        <div className="card-actions justify-end">
-                            <form onSubmit={handleOrder}>
+                <form onSubmit={handleOrder}>
+                    <div className="card lg:card-side bg-base-100 rounded-none border-none">
+                        <figure><img src={product.image} alt="Album" /></figure>
+                        <div className="card-body">
+                            <h1 className='text-3xl lg:mt-20'>{product.name}</h1>
+                            <h1>{product.description2}</h1>
+                            <h1>Price: ${product.price}</h1>
+                            <h1>Quantity: {product.quantity}</h1>
+                            <div className="card-actions justify-end">
+
                                 <input type="submit" value="CheekOut" className="btn btn-primary rounded-none border-none" style={{ backgroundColor: '#CA1F26' }} />
-                            </form>
+
+                            </div>
                         </div>
                     </div>
-                </div>
+                </form>
             </div>
 
             {/*  <div className='grid grid-cols-4 text-black justify-items-start mr-96'>
