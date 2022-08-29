@@ -10,6 +10,8 @@ import RequireAuth from './Pages/RequireAuth';
 import Inventory from './Pages/Inventory/Inventory';
 import AddItem from './Pages/AddItem/AddItem';
 import Items from './Pages/Items/Items';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   return (
@@ -33,6 +35,7 @@ function App() {
         <Route path='/login' element={<Login></Login>}> </Route>
         <Route path='/siginUp' element={<SignUp></SignUp>}> </Route>
       </Routes>
+      <ToastContainer />
     </div>
   );
 }
