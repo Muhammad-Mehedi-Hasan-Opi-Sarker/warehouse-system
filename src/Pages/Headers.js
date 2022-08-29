@@ -15,7 +15,7 @@ const Headers = () => {
         {
             user && <>
                 <li><Link to='/shop'>Shop</Link></li>
-                <li><Link to='/services'>Items</Link></li>
+                <li><Link to='/items'>Items</Link></li>
                 <li><Link to='/additem'>Add Item</Link></li>
             </>
         }
@@ -47,7 +47,7 @@ const Headers = () => {
                 </div>
                 <div className="navbar-end">
                     <ul className="menu menu-horizontal p-0">
-                        <li> {user ? <button onClick={logout} className='btn'>sign out</button> :
+                        <li> {user ? <button onClick={logout} className='btn text-white'>sign out</button> :
                             <Link to='/login'>login</Link>} </li>
 
                     </ul>
