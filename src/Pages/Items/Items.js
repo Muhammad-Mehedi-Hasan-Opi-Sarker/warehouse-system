@@ -9,17 +9,15 @@ const Items = () => {
     const [reload, setReload] = useState(false);
     const [user, loading, error] = useAuthState(auth);
     useEffect(() => {
-      
-            fetch(`http://localhost:5000/booking?customerEamil=${user.email}`)
-                .then(res => res.json()).then(data => setItems(data));
-      
+        fetch(`http://localhost:5000/booking?customerEamil=${user.email}`)
+            .then(res => res.json()).then(data => setItems(data));
     }, [reload])
 
-    /*  const handleDelete = id => {
+     const handleDelete = id => {
          console.log(id)
          const proceed = window.confirm("Are you sure");
          if (proceed) {
-             const url = `http://localhost:5000/product/${id}`;
+             const url = `http://localhost:5000/booking/${id}`;
              fetch(url, {
                  method: 'DELETE'
              })
@@ -28,9 +26,9 @@ const Items = () => {
                      setReload(!reload)
                  })
          }
-     } */
+     }
 
-    if (loading) {
+     if (loading) {
         return <Loading></Loading>
     }
 
@@ -50,16 +48,16 @@ const Items = () => {
                                 <th>Name</th>
                                 <th>Quantity</th>
                                 <th></th>
-
+                                
                             </tr>
                         </thead>
                         <tbody>
                             {
-                                items.map(item => <tr className='hover'>
+                                items.map(item=><tr className='hover'>
                                     <th>1</th>
                                     <td>{item.name}</td>
                                     <td>{item.quantity}</td>
-                                    <td><button className='btn btn-black'>Delete</button></td>
+                                    <td><button onClick={()=>handleDelete(item.id)} className='btn btn-black'>Delete</button></td>
                                 </tr>)
                             }
                         </tbody>

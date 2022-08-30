@@ -27,8 +27,9 @@ const AddItem = () => {
         })
             .then((response) => response.json())
             .then((data) => {
+                console.log(data)
                 if (data.success) {
-                    const image = data.data.url;
+                    const image = data?.data?.url;
                     const allData = {
                         name: name,
                         image: image,
@@ -72,20 +73,20 @@ const AddItem = () => {
                             <form onSubmit={handleSubmit} className='grid lg:grid-cols-4 grid-cols-2 lg:gap-5 gap-2'>
                                 <input required name='name' type="text" placeholder="Product name" className="input input-bordered w-full max-w-xs mb-5" />
                                 <input required name='image' type="file" placeholder="Image url" className="input input-bordered w-full max-w-xs mb-5" />
-                                <textarea required name='description2' class="textarea textarea-bordered mb-5" placeholder="More than 100 line description"></textarea>
+                                <textarea  name='description2' class="textarea textarea-bordered mb-5" placeholder="More than 100 line description"></textarea>
                                 {/* <input name='description2' type="text" placeholder="More than 100 line description" className="input input-bordered w-full max-w-xs mb-5" /> */}
                                 <input name='description3' type="text" placeholder="1 line description" className="input input-bordered w-full max-w-xs mb-5" />
                                 <textarea name='description4' class="textarea textarea-bordered mb-5" placeholder="More than 90 line description"></textarea>
                                 {/* <input name='description4' type="text" placeholder="More than 90 line description" className="input input-bordered w-full max-w-xs mb-5" /> */}
-                                <input required name='weight' type="text" placeholder="Weight (Battery & Propellers Included)" className="input input-bordered w-full max-w-xs mb-5" />
-                                <input required name='diagonalSize' type="text" placeholder="Diagonal Size (Propellers Excluded)" className="input input-bordered w-full max-w-xs mb-5" />
-                                <input required name='maxAscentSpeed' type="text" placeholder="Max Ascent Speed" className="input input-bordered w-full max-w-xs mb-5" />
-                                <input required name='maxdescentspeed' type="text" placeholder="Max Descent Speed" className="input input-bordered w-full max-w-xs mb-5" />
-                                <input required name='maxspeed' type="text" placeholder="Max Speed" className="input input-bordered w-full max-w-xs mb-5" />
-                                <input required name='maxangularspeed' type="text" placeholder="Max Angular Speed" className="input input-bordered w-full max-w-xs mb-5" />
-                                <input required name='price' type="number" placeholder="number" className="input input-bordered w-full max-w-xs mb-5" />
-                                <input required name='quantity' type="number" placeholder="number" className="input input-bordered w-full max-w-xs mb-5" />
-                                <input required className='btn rounded-none border-none w-full' style={{ backgroundColor: '#4f77ff' }} type="submit" value="Add Product" />
+                                <input name='weight' type="text" placeholder="Weight (Battery & Propellers Included)" className="input input-bordered w-full max-w-xs mb-5" />
+                                <input name='diagonalSize' type="text" placeholder="Diagonal Size (Propellers Excluded)" className="input input-bordered w-full max-w-xs mb-5" />
+                                <input name='maxAscentSpeed' type="text" placeholder="Max Ascent Speed" className="input input-bordered w-full max-w-xs mb-5" />
+                                <input name='maxdescentspeed' type="text" placeholder="Max Descent Speed" className="input input-bordered w-full max-w-xs mb-5" />
+                                <input name='maxspeed' type="text" placeholder="Max Speed" className="input input-bordered w-full max-w-xs mb-5" />
+                                <input name='maxangularspeed' type="text" placeholder="Max Angular Speed" className="input input-bordered w-full max-w-xs mb-5" />
+                                <input name='price' type="number" placeholder="number" className="input input-bordered w-full max-w-xs mb-5" />
+                                <input name='quantity' type="number" placeholder="number" className="input input-bordered w-full max-w-xs mb-5" />
+                                <input className='btn rounded-none border-none w-full' style={{ backgroundColor: '#4f77ff' }} type="submit" value="Add Product" />
                             </form>
                         </div>
                     </div>

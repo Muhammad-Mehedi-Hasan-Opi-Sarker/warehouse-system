@@ -2,7 +2,9 @@ import React from 'react';
 
 const OtherService = () => {
     return (
-        <div className='grid lg:grid-cols-3 lg:px-12 px-4'>
+        <div>
+            <div className='grid justify-items-center mt-12 mb-8'><h1 className='font-bold text-5xl'>Services</h1></div>
+            <div className='grid lg:grid-cols-3 lg:px-12 px-4'>
             {/* card 1 */}
             <div className="card w-96 bg-base-100">
                 <figure className="px-10 pt-10 rounded-none">
@@ -47,6 +49,7 @@ const OtherService = () => {
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     );
 };

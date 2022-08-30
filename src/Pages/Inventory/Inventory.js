@@ -55,7 +55,7 @@ const Inventory = () => {
                             <h1 className='text-3xl lg:mt-20'>{product.name}</h1>
                             <h1>{product.description2}</h1>
                             <h1>Price: ${product.price}</h1>
-                            <h1>Quantity: {product.quantity}</h1>
+                            {/* <h1>Quantity: {product.quantity}</h1> */}
                             <div className="card-actions justify-end">
 
                                 <select name='quantity' class="select select-bordered w-full max-w-xs">
