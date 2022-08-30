@@ -22,15 +22,15 @@ const Inventory = () => {
         const id = product._id;
         const name = product.name;
         const price = product.price;
-        const quantity = product.quantity;
-        const email = user.email;
+        const quantity = e.target.quantity.value;
+        // const email = user.email;
         // console.log(id, name, price, quantity, email);
         const allBookingData = {
             id: id,
             name: name,
             price: price,
             quantity: quantity,
-            email: email
+            customerEmail: user.email
         }
         fetch(`http://localhost:5000/booking/${id}`, {
             method: 'POST', // or 'PUT'
@@ -58,6 +58,13 @@ const Inventory = () => {
                             <h1>Quantity: {product.quantity}</h1>
                             <div className="card-actions justify-end">
 
+                                <select name='quantity' class="select select-bordered w-full max-w-xs">
+                                    <option disabled selected>Item quantity select</option>
+                                    <option>50</option>
+                                    <option>80</option>
+                                    <option>100</option>
+                                    <option>140</option>
+                                </select>
                                 <input type="submit" value="CheekOut" className="btn btn-primary rounded-none border-none" style={{ backgroundColor: '#CA1F26' }} />
 
                             </div>

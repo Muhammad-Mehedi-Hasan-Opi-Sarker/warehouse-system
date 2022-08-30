@@ -10,15 +10,17 @@ const Headers = () => {
         signOut(auth);
     };
     const nav = <>
-        <li><Link to='/home'>Home</Link></li>
-        <li><Link to='/services'>Services</Link></li>
+        <li className=''><Link to='/home'>Home</Link></li>
+
         {
             user && <>
                 <li><Link to='/shop'>Shop</Link></li>
                 <li><Link to='/items'>Items</Link></li>
+                <li><Link to='/manage'>Manage Items</Link></li>
                 <li><Link to='/additem'>Add Item</Link></li>
             </>
         }
+        <li><Link to='/services'>Services</Link></li>
         <li><Link to='about'>About</Link></li>
         <li><Link to='/blog' >Blog</Link></li>
     </>

@@ -12,6 +12,9 @@ import AddItem from './Pages/AddItem/AddItem';
 import Items from './Pages/Items/Items';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Blog from './Pages/Blog';
+import About from './Pages/About';
+import ManageItems from './Pages/ManageItems';
 
 function App() {
   return (
@@ -32,6 +35,9 @@ function App() {
         }></Route>
         <Route path='/additem' element={<AddItem></AddItem>}> </Route>
         <Route path='/items' element={<Items></Items>}> </Route>
+        <Route path='/manage' element={<ManageItems></ManageItems>}> </Route>
+        <Route path='/blog' element={<Blog></Blog>}> </Route>
+        <Route path='/about' element={<About></About>}> </Route>
         <Route path='/login' element={<Login></Login>}> </Route>
         <Route path='/siginUp' element={<SignUp></SignUp>}> </Route>
       </Routes>
