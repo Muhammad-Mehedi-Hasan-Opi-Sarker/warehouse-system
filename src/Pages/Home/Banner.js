@@ -52,7 +52,7 @@ const Banner = () => {
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                         <a href="#slide3" class="btn btn-circle">❮</a>
                         <div>
-                            <h1 className='font-bold text-5xl text-white'>GROUND OR AIR,</h1><br />
+                            <h1 className='font-bold text-5xl text-white'>GROUND OR AIR,</h1><br />ser
                             <h1 className='font-bold text-5xl text-white'>'THERE IS NO STOPPING FOR US</h1>
                             <button className='btn rounded none boder-none hover:bg-black mt-8 hover:text-white' style={{ backgroundColor: '#CA1F26' }}>Learn more</button>
                         </div>
