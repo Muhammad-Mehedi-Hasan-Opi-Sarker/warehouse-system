@@ -16,6 +16,7 @@ import Blog from './Pages/Blog';
 import About from './Pages/About';
 import ManageItems from './Pages/ManageItems';
 import Services from './Pages/Services';
+import BlogInventory from './Pages/BlogInventory';
 
 function App() {
   return (
@@ -42,6 +43,8 @@ function App() {
         }> </Route>
         <Route path='/manage' element={<ManageItems></ManageItems>}> </Route>
         <Route path='/blog' element={<Blog></Blog>}> </Route>
+        <Route path='/blog' element={<Blog></Blog>}> </Route>
+        <Route path='/bloginventory/:id' element={<BlogInventory></BlogInventory>}> </Route>
         <Route path='/about' element={<About></About>}> </Route>
         <Route path='/services' element={<Services></Services>}> </Route>
         <Route path='/login' element={<Login></Login>}> </Route>

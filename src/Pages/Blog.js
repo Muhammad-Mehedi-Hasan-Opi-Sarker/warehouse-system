@@ -1,14 +1,21 @@
 import React, { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import './blog.css';
 import Footer from './Shared/Footer';
 
 const Blog = () => {
+    const navigate = useNavigate();
     const [blog, setBlog] = useState([]);
     const [searchTerm, setSearchTerm] = useState("");
     useEffect(() => {
-        fetch("http://localhost:5000/blog")
+        fetch("https://warm-oasis-85547.herokuapp.com/blog")
             .then(res => res.json()).then(data => setBlog(data))
     }, [])
+
+    const handleBlog = id => {
+        navigate(`/bloginventory/${id}`)
+    }
+
     return (
         <div>
             <div className='h-56 bg-slate-200 grid items-center'>
@@ -33,7 +40,7 @@ const Blog = () => {
                                     <div class="card-body blo p-2">
                                         <h2 class="font-bold text-3xl">{b.title}</h2>
                                         <p className=''>{b.p1}</p>
-                                        <button className='btn border-none rounded-none w-32' style={{ backgroundColor: '#CA1F26' }}>See more</button>
+                                        <button onClick={() => handleBlog(b._id)} className='btn border-none rounded-none w-32' style={{ backgroundColor: '#CA1F26' }}>See more</button>
                                     </div>
                                 </div>
                             )
