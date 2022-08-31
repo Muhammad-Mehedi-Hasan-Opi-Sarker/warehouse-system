@@ -4,7 +4,7 @@ const ManageItems = () => {
     const [items, setItems] = useState([]);
     const [reload, setReload] = useState(false);
     useEffect(() => {
-        fetch("http://localhost:5000/product")
+        fetch("https://warm-oasis-85547.herokuapp.com/product")
             .then(res => res.json()).then(data => setItems(data));
     }, [reload])
 
@@ -12,7 +12,7 @@ const ManageItems = () => {
         console.log(id)
         const proceed = window.confirm("Are you sure");
         if (proceed) {
-            const url = `http://localhost:5000/product/${id}`;
+            const url = `https://warm-oasis-85547.herokuapp.com/product/${id}`;
             fetch(url, {
                 method: 'DELETE'
             })

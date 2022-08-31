@@ -30,7 +30,7 @@ const Inventory = () => {
             name: name,
             price: price,
             quantity: quantity,
-            customerEmail: user.email
+            email: user.email
         }
         fetch(`http://localhost:5000/booking/${id}`, {
             method: 'POST', // or 'PUT'

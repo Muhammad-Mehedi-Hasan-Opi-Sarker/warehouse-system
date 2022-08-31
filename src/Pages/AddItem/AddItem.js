@@ -45,7 +45,7 @@ const AddItem = () => {
                         price: price,
                         quantity: quantity
                     }
-                    fetch('http://localhost:5000/product', {
+                    fetch('https://warm-oasis-85547.herokuapp.com/product', {
                         method: 'POST', // or 'PUT'
                         headers: {
                             'Content-Type': 'application/json',

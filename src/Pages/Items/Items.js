@@ -3,13 +3,14 @@ import { useAuthState } from 'react-firebase-hooks/auth';
 import auth from '../../firebase.init';
 import Footer from '../Shared/Footer';
 import Loading from '../Shared/Loading';
+import { toast } from 'react-toastify';
 
 const Items = () => {
     const [items, setItems] = useState([]);
     const [reload, setReload] = useState(false);
     const [user, loading, error] = useAuthState(auth);
     useEffect(() => {
-        fetch(`http://localhost:5000/booking?customerEamil=${user.email}`)
+        fetch(`https://warm-oasis-85547.herokuapp.com/booking?email=${user.email}`)
             .then(res => res.json()).then(data => setItems(data));
     }, [reload])
 
@@ -17,13 +18,14 @@ const Items = () => {
          console.log(id)
          const proceed = window.confirm("Are you sure");
          if (proceed) {
-             const url = `http://localhost:5000/booking/${id}`;
+             const url = `https://warm-oasis-85547.herokuapp.com/booking/${id}`;
              fetch(url, {
                  method: 'DELETE'
              })
                  .then(res => res.json())
                  .then(data => {
                      setReload(!reload)
+                     toast(`delete item`)
                  })
          }
      }
@@ -57,7 +59,7 @@ const Items = () => {
                                     <th>1</th>
                                     <td>{item.name}</td>
                                     <td>{item.quantity}</td>
-                                    <td><button onClick={()=>handleDelete(item.id)} className='btn btn-black'>Delete</button></td>
+                                    <td><button onClick={()=>handleDelete(item._id)} className='btn btn-black'>Delete</button></td>
                                 </tr>)
                             }
                         </tbody>
