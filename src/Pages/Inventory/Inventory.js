@@ -11,7 +11,7 @@ const Inventory = () => {
     const { id } = useParams();
     const [product, setProduct] = useState([]);
     useEffect(() => {
-        const url = `http://localhost:5000/product/${id}`;
+        const url = `https://warm-oasis-85547.herokuapp.com/product/${id}`;
         fetch(url)
             .then(res => res.json())
             .then(data => setProduct(data));
@@ -32,7 +32,7 @@ const Inventory = () => {
             quantity: quantity,
             email: user.email
         }
-        fetch(`http://localhost:5000/booking/${id}`, {
+        fetch(`https://warm-oasis-85547.herokuapp.com/booking/${id}`, {
             method: 'POST', // or 'PUT'
             headers: {
                 'Content-Type': 'application/json',

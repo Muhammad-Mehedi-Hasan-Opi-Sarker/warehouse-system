@@ -39,9 +39,10 @@ const Login = () => {
     }
 
     return (
+    <div>
         <div className="bg-[url('https://img.freepik.com/free-vector/drone-background-design_1212-249.jpg?w=740&t=st=1661506518~exp=1661507118~hmac=4415c51324b31a61d40c8a5ca3955600676a8e29377f4cb8781766bbb35b40e3')]"
-            style={{ height: '900px' }}>
-            <h1 className='mb-20'>.</h1>
+            style={{ height: '600px' }}>
+            <h1 className='mb-12'>.</h1>
             <div className='grid justify-items-center lg:flex lg:ml-80'>
 
                 {/* card 1 */}
@@ -75,10 +76,12 @@ const Login = () => {
                     </div>
 
                 </div>
-                <h6 className='mt-12'>.</h6>
+                
             </div>
-            <Footer></Footer>
+            
         </div>
+        <Footer></Footer>
+    </div>
     );
 };
 
